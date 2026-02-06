@@ -4,6 +4,8 @@
 
 **Dependency:** `import { validatePizza } from 'pizza-validator';` — use with `npm install ../pizza-validator`. **CLI:** From `pizza-validator` run `npm run build` then `npm install -g .` then `pizza-validator file.json`.
 
+Also, I checked that the package can be installed as a dependency by creating a separate project and running npm install ../pizza-validator.
+
 ## How many hours did you spend working on this homework?
 
 ~2 days
