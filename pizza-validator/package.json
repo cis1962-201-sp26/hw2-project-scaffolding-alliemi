@@ -1,0 +1,27 @@
+{
+  "name": "pizza-validator",
+  "version": "1.0.0",
+  "main": "dist/src/index.js",
+  "bin": { "pizza-validator": "dist/src/cli.js" },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "ESLINT_USE_FLAT_CONFIG=false eslint --ext .ts src test",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "Allison Mi",
+  "license": "ISC",
+  "description": "Validates whether a given object is a pizza per a defined schema.",
+  "dependencies": { "zod": "^4.3.6" },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.2.1",
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint": "^9.39.2",
+    "jest": "^30.2.0",
+    "prettier": "^3.8.1",
+    "ts-jest": "^29.4.6",
+    "typescript": "^5.9.3"
+  }
+}
